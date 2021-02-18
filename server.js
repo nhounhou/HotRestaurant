@@ -29,9 +29,9 @@ let waitList=[
 ];
 
 // Client GET Routes
-app.get('/', (req, res) => res.sendFile(path.join(__dirname, '/solved/home.html')));
-app.get('/tables', (req, res) => res.sendFile(path.join(__dirname, '/solved/tables.html')));
-app.get('/reserve', (req, res) => res.sendFile(path.join(__dirname, '/solved/reserve.html')));
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, '/Solved/home.html')));
+app.get('/tables', (req, res) => res.sendFile(path.join(__dirname, '/Solved/tables.html')));
+app.get('/reserve', (req, res) => res.sendFile(path.join(__dirname, '/Solved/reserve.html')));
 
 // API routes
 app.get('/api/tables', (req, res) => res.json(tables));
